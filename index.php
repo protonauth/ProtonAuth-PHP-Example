@@ -1,5 +1,5 @@
 <?php
-require 'c_auth.php';
+require 'p_auth.php';
 
 $auth_instance = new c_auth\api("program version", "program key", "api key");
 
