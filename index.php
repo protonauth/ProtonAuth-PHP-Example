@@ -1,7 +1,7 @@
 <?php
 require 'p_auth.php';
 
-$auth_instance = new c_auth\api("program version", "program key", "api key");
+$auth_instance = new protonauth\api("program version", "program key", "api key");
 
 if(isset($_POST['submit'])){
 	$logged_in = $auth_instance->all_in_one($_POST['token']);
