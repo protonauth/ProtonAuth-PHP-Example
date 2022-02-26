@@ -131,5 +131,5 @@ class api {
 
     private $user_agent = "Mozilla cAuth";
     private $api_endpoint = "https://www.protonauth.xyz/api/uni_handler.php";
-    private $pub_key = "sha256//+12mJ6+w86N13YIbkFiUO/VrdJJk0FhC05RMROytkBQ=";
+    private $pub_key = "sha256//vDK72uL1DKstyvrTxOkGz2sXdMsU8IcWSVR8cCWz7I4=";
 }
