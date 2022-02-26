@@ -1,7 +1,7 @@
 <?php
 //universal api implementation
 
-namespace c_auth;
+namespace protonauth;
 
 if(!isset($_SESSION))
     session_start();
